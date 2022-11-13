@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-align: justify;
+            font-size: 1.2em;
+        } /*font-weight: ligthter  normal  bold  bolder (nem todas as fontes possuem essas variações)*/
+        h1, h2{
+            font-style: italic;
+            font-weight: bold;
+            font-size: 2em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /*Isso pode ser representado com um "shorthand" como está representado no css do parágrafo abaixo*/
+        }
+
+        p{
+            /*Shorthand para fonte = 
+            font-style -> font-weight -> font-size -> font-family*/
+            font: italic bold 1.2em Arial;   
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti cupiditate ad ullam tempora mollitia optio laudantium sapiente quo! Iste dolorum cupiditate itaque at, totam molestias ea et praesentium id consequuntur?</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas aperiam quas cum nulla doloribus sed, dicta fugit deserunt amet praesentium reiciendis officiis, quae, magni laboriosam facere totam. Rem, pariatur fugiat!</p>
+</body>
+</html>

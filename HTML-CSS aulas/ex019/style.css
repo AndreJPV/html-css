@@ -1,0 +1,31 @@
+@charset "UTF-08";
+
+body{
+    background-image: linear-gradient(to bottom, #b7ffff7a, #d4ffff7a);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1#principal{
+    color: #004040;
+    text-align: center;
+    background-color: #00bfbf83;
+}
+h1{
+color: #004040;
+}
+h2{
+    color: #008080;
+}
+.basico{
+    color: #008080;
+}
+.intermediario{
+    color: #005180;
+}
+.avancado{
+    color: #000980;
+}
+.destaque{
+    background-color: yellow;
+    color: #000980;
+    font-weight: bold;
+}
