@@ -4,14 +4,30 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+@font-face {
+    font-family: 'Passion One', cursive;
+    src: url(fontes/Passion_One/PassionOne-Bold.ttf) format('truetype');
+}
 :root{
     --fonte-destaque:'Passion One', sans-serif;
+    --fonte-destaque-bold:'Passion One', sans-serif;
     --fonte-padrão:'Sriracha';
+    --fonte-comum: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 *{
     margin: 0px;
     padding: 0px;
+}
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 header{
@@ -23,13 +39,19 @@ header{
 
 header>h1{
       font-family: var(--fonte-destaque);
+      font-weight: normal;
       padding-top: 40px; 
-      font-size: 5em;    
+      font-size: 68px;    
 }
 
+aside{
+    font-family: var(--fonte-comum)
+    
+}
 main{
     font-family: var(--fonte-padrão);
-    line-height: 2em;
+    font-size: 23px;
+    line-height: 47.7px;
     
 }
 
@@ -46,6 +68,7 @@ div{
     background-image: url(pacote-d012/imagens/background001.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
+    
 }
 
 #q2 {
@@ -89,7 +112,12 @@ div{
 }
 
 footer{
+    font-family: var(--fonte-comum);
     background-color: black;
     color: white;
     text-align: center;
+}
+
+footer>p{
+    padding: 10px 0px 10px 0px;
 }
