@@ -4,14 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-@font-face {
-    font-family: 'Passion One', cursive;
-    src: url(fontes/Passion_One/PassionOne-Bold.ttf) format('truetype');
-}
+
 :root{
     --fonte-destaque:'Passion One', sans-serif;
-    --fonte-destaque-bold:'Passion One', sans-serif;
-    --fonte-padrão:'Sriracha';
+    --fonte-padrão:'Sriracha', cursive;
     --fonte-comum: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -44,7 +40,7 @@ header>h1{
       font-family: var(--fonte-destaque);
       font-weight: normal;
       padding-top: 50px; 
-      font-size: 68px;
+      font-size: 10vw;
       font-variant: small-caps;    
 }
 
@@ -55,60 +51,53 @@ aside{
 }
 main{
     font-family: var(--fonte-padrão);
-    font-size: 23px;
+    font-size: 3.5vw;
     line-height: 2em;
-    
+    background-color: rgba(128, 128, 128, 0.664);
 }
 
 div{
-    margin-left: 30px;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30px;
 }
 
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    background-color: rgb(88, 88, 88);
+    color: white;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.466);
+    background-attachment: fixed;
+}    
+
+.imagem > div > p{
+    background-color: rgba(0, 0, 0, 0.568);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+#espaco > p{
+    padding-bottom: 2em;
+}
 
 #container2{
-    position: relative;
-    min-height: 400px;
     background-image: url(pacote-d012/imagens/background001.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-position: right center;
     
 }
-
-#q2 {
-    position: absolute;
-    
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: fit-content;
-    padding: 10px;
-    top: 50%;
-
-    transform: translate(0, -50%);
-}
-
-
 
 #container4{
-    position: relative;
-    min-height: 400px;
     background-image: url(pacote-d012/imagens/background002.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-
-#q4{
-    position: absolute;
     
-    color: white;
-    background-color: rgba(0, 0, 0, 0.7);
-    width: fit-content;
-    padding: 10px;
-    top: 50%;
-
-    transform: translate(0, -50%);
 }
+
+
 
 
 
