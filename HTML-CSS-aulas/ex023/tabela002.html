@@ -13,6 +13,7 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption{
@@ -24,6 +25,12 @@
         thead, tfoot{
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         tbody > tr:nth-child(even)/* ou no lugar do even  pode usar:(2n, 3n, 4n...)*/{
@@ -42,6 +49,10 @@
 
         td.num{
             text-align: right;
+        }
+
+        tr:hover {
+            border: 2px solid rgb(23, 9, 226);
         }
     </style>
 </head>
@@ -184,5 +195,10 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit tenetur, velit sapiente, necessitatibus fugiat quidem ipsum, cupiditate voluptates natus nostrum cumque id nisi. Inventore, sint numquam. Blanditiis perspiciatis ut quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus nam, voluptatibus totam nihil corporis alias error enim vero placeat molestias autem. Ipsa, fugiat expedita? Minus natus ipsa corrupti. Itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis commodi repellendus doloribus aut veniam autem fugit inventore ipsa reiciendis repellat, animi eum ex laborum mollitia nihil molestiae eveniet, cum perspiciatis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit tenetur, velit sapiente, necessitatibus fugiat quidem ipsum, cupiditate voluptates natus nostrum cumque id nisi. Inventore, sint numquam. Blanditiis perspiciatis ut quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus nam, voluptatibus totam nihil corporis alias error enim vero placeat molestias autem. Ipsa, fugiat expedita? Minus natus ipsa corrupti. Itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis commodi repellendus doloribus aut veniam autem fugit inventore ipsa reiciendis repellat, animi eum ex laborum mollitia nihil molestiae eveniet, cum perspiciatis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit tenetur, velit sapiente, necessitatibus fugiat quidem ipsum, cupiditate voluptates natus nostrum cumque id nisi. Inventore, sint numquam. Blanditiis perspiciatis ut quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus nam, voluptatibus totam nihil corporis alias error enim vero placeat molestias autem. Ipsa, fugiat expedita? Minus natus ipsa corrupti. Itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis commodi repellendus doloribus aut veniam autem fugit inventore ipsa reiciendis repellat, animi eum ex laborum mollitia nihil molestiae eveniet, cum perspiciatis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit tenetur, velit sapiente, necessitatibus fugiat quidem ipsum, cupiditate voluptates natus nostrum cumque id nisi. Inventore, sint numquam. Blanditiis perspiciatis ut quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus nam, voluptatibus totam nihil corporis alias error enim vero placeat molestias autem. Ipsa, fugiat expedita? Minus natus ipsa corrupti. Itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis commodi repellendus doloribus aut veniam autem fugit inventore ipsa reiciendis repellat, animi eum ex laborum mollitia nihil molestiae eveniet, cum perspiciatis?</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit tenetur, velit sapiente, necessitatibus fugiat quidem ipsum, cupiditate voluptates natus nostrum cumque id nisi. Inventore, sint numquam. Blanditiis perspiciatis ut quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi accusamus nam, voluptatibus totam nihil corporis alias error enim vero placeat molestias autem. Ipsa, fugiat expedita? Minus natus ipsa corrupti. Itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis commodi repellendus doloribus aut veniam autem fugit inventore ipsa reiciendis repellat, animi eum ex laborum mollitia nihil molestiae eveniet, cum perspiciatis?</p>
 </body>
 </html>
